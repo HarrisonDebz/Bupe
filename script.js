@@ -116,11 +116,11 @@ document.addEventListener('DOMContentLoaded', () => {
         const name = userNameInput.value.trim();
         const errorMsg = document.getElementById('error-msg');
         
-        if (name.toLowerCase() === 'bridget') {
+        if (name.toLowerCase() === 'faith') {
             errorMsg.style.display = 'none';
             // Personalize the letter
             const letterHeader = document.querySelector('.letter-header');
-            if (letterHeader) letterHeader.innerText = `Dearest Bridget,`;
+            if (letterHeader) letterHeader.innerText = `Dearest Faith,`;
             
             entryOverlay.classList.add('fade-out');
             toggleMusic(true); // Start music on enter
